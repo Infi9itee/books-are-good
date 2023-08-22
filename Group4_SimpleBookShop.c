@@ -31,6 +31,7 @@ main()
 
         printf ("\n\n Enter your choice: ");
         scanf  ("%d", &a); /*Taking option to perform certain operations*/
+        getchar(); //to clear out the buffer so it doesnt print garbage countlesly
         switch(a)
         {
         case 1:
